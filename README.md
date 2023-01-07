@@ -26,28 +26,28 @@ Listed by order of most recently purchased. Items ~~striked~~ are no longer bein
 [bltouch]
 x_offset: -34.5
 y_offset: -41.5
-z_offset: 0.950
+z_offset: 0.980
 ```
 
 **Bed Mesh:**
 ```cnf
 [bed_mesh]
 speed: 150
-mesh_min: 40, 40
-mesh_max: 200, 200
+mesh_min: 27, 41.5
+mesh_max: 198, 200
 probe_count: 5, 3
 ```
 
 **Bed-level screws:**
 ```cnf
 [screws_tilt_adjust]
-screw1_name: Front left
-screw1: 60, 84
-screw2_name: Front right
-screw2: 230, 84
-screw3_name: Back right
-screw3: 230, 245
-screw4_name: Back left
-screw4: 60, 245
 screw_thread: CW-M4
+screw1_name: Back left
+screw1: 60, 245
+screw2_name: Front left
+screw2: 60, 84
+screw3_name: Front right
+screw3: 230, 84
+screw4_name: Back right
+screw4: 230, 245
 ```
